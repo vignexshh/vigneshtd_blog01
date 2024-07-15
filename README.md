@@ -26,7 +26,7 @@
 
 > [!TIP]
 >
-> You may visit the live demo deployment: https://github.com/wtlow003/nextjs-theme-simple
+> You may visit the live demo deployment: https://simple-iota-two.vercel.app/
 
 https://github.com/user-attachments/assets/87609209-ac7e-4d9d-bfc4-12dd4d482a76
 
