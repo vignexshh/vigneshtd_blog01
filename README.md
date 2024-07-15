@@ -1,4 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Simple</h1>
+
+<p align="center">
+    <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwtlow003%2Fnextjs-theme-simple"><img src="https://vercel.com/button" alt="Deploy with Vercel"/></a>
+</p>
+
+## Motivation
+
+**Simple**, is a minimalistic blogging theme made with [Next.js](https://nextjs.org/) and adapted from the beloved Hugo theme – [Mini](https://github.com/nodejh/hugo-theme-mini).
+
+**Simple** retain the exact minimalistic feels from Mini, with following features for the modern web:
+
+1. **Next.js Powered**: Benefit from the speed, SEO advantages, and versatility of Next.js.
+2. **Framer Motion Integration**: Smooth animations that improve user engagement.
+3. **Shadcn Styled Components**: Consistent and attractive design elements made easy.
+4. **MDX Support**: Write in Markdown format and handle content with [Velite](https://velite.js.org/guide/introduction).
+5. **Syntax Highlighting**: Syntax highlighting for code with [rehype-pretty-code](https://rehype-pretty.pages.dev/).
+6. **Math Support**: Write beautiful math equation with [rehype-katex](https://www.npmjs.com/package/rehype-katex).
+4. **Fully Responsive**: Your blog will look great on any device, from mobile to desktop.
+
+## Demo:
+
+> [!NOTE]
+>
+> You may visit the live demo deployment: https://github.com/wtlow003/nextjs-theme-simple
+
 
 ## Getting Started
 
@@ -16,21 +41,9 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Roadmap
 
-## Learn More
+- [ ] Open Graph Integration
+- [ ] SEO Enhancement
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
