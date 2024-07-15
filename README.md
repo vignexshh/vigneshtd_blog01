@@ -8,7 +8,9 @@
 
 ![simple](https://github.com/user-attachments/assets/3e362175-824f-4ce1-b4fe-b82f492bfe36)
 
-**Simple**, is a minimalistic blogging theme made with [Next.js](https://nextjs.org/) and adapted from the beloved Hugo theme – [Mini](https://github.com/nodejh/hugo-theme-mini).
+> [!NOTE]
+>
+> **Simple**, is a minimalistic blogging theme made with [Next.js](https://nextjs.org/) and adapted from the beloved Hugo theme – [Mini](https://github.com/nodejh/hugo-theme-mini).
 
 **Simple** retain the exact minimalistic feels from Mini, with following features for the modern web:
 
@@ -22,7 +24,7 @@
 
 ## Demo:
 
-> [!NOTE]
+> [!TIP]
 >
 > You may visit the live demo deployment: https://github.com/wtlow003/nextjs-theme-simple
 
