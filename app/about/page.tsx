@@ -21,11 +21,7 @@ const AboutPage = () => {
         <div className="w-full">
           <div className="flex flex-col justify-between gap-5 items-start leading-7 text-wrap">
             <p>
-              {/* Hi, I'm Vignesh. I'm a Platform Engineer and Statistician. I
-              specialize in building scalable and reliable systems. I have a
-              passion for statistics and data analysis. I'm a huge fan of
-              open-source software and I love to contribute to the community. 
-              This was genrated apparently,  will add about myself when I'm in feeling to express.  */}
+              
             </p>
           </div>
         </div>
