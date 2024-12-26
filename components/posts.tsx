@@ -32,7 +32,7 @@ const HomePosts = () => {
     .slice((currentPage - 1) * postsPerPage, currentPage * postsPerPage);
 
   return (
-    <div className="flex flex-col justify-between w-full">
+    <div className=" flex flex-col justify-between w-full">
       {paginatedPosts.map((post: any) => (
         <Link
           key={post.slug}

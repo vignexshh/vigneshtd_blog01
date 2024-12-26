@@ -5,7 +5,7 @@ const profile = () => {
   return (
     <div className="flex flex-col items-center text-center">
       <Link href="/">
-        <Avatar className="w-[100px] h-[100px]">
+        <Avatar className="w-[200px] h-[200px] grayscale">
           <AvatarImage src="/avatar.png" />
           <AvatarFallback>JL</AvatarFallback>
         </Avatar>
@@ -13,7 +13,7 @@ const profile = () => {
       <h1 className="font-semibold mt-2 py-2.5 text-xl font-heading">
         Vignesh T D / Vithan
       </h1>
-      <p className="text-neutral-500">Generative AI Platform Engineer</p>
+      <p className="">Platform Engineer & Statistician </p>
     </div>
   );
 };
