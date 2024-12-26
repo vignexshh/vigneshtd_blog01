@@ -32,15 +32,16 @@ const HomePosts = () => {
     .slice((currentPage - 1) * postsPerPage, currentPage * postsPerPage);
 
   return (
-    <div className=" flex flex-col justify-between w-full">
+    <div className=" flex flex-col justify-between  w-full">
       {paginatedPosts.map((post: any) => (
         <Link
           key={post.slug}
-          className="flex flex-col space-y-1 mb-4 p-2"
+          className="flex flex-col space-y-1 mb-4 p-5 border border-neutral-300 rounded-xl"
           href={`/posts/${post.slug}`}
         >
           <div className="w-full flex flex-col">
             <div className="flex items-center justify-between gap-2">
+          
               <p className="text-lg font-medium tracking-tight hover:underline">
                 {post.title}
               </p>
@@ -53,9 +54,12 @@ const HomePosts = () => {
                   })
                   .replace(/ /g, "-")}
               </p>
+              
             </div>
+            
             <div className="max-w-lg text-neutral-500">{post.summary}</div>
           </div>
+          
         </Link>
       ))}
       <div className="flex justify-between mt-10">
@@ -77,7 +81,9 @@ const HomePosts = () => {
           Next
         </Button>
       </div>
+      
     </div>
+    
   );
 };
 

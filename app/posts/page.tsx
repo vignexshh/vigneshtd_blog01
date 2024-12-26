@@ -31,18 +31,18 @@ const Posts = () => {
   });
 
   return (
-    <div className="flex flex-col w-full">
+    <div className="flex flex-col w-full  ">
       {monthYears.map((monthYear) => (
         <div key={monthYear} className="mb-6">
-          <h2 className="text-xl font-bold mb-4 p-2">{monthYear}</h2>
+          <h2 className="text-xl font-bold mb-4 p-2"> {monthYear}</h2>
           <div className="flex flex-col justify-between">
             {groupedPosts[monthYear].map((post: any) => (
               <Link
                 key={post.slug}
-                className="flex flex-col space-y-1 mb-4 p-2"
+                className=" flex flex-col space-y-1 mb-4 p-5 border  border-neutral-300 rounded-xl"
                 href={`/posts/${post.slug}`}
               >
-                <div className="w-full flex flex-col">
+                <div className="w-full flex flex-col ">
                   <div className="flex justify-start gap-5">
                     <p className="text-neutral-500 text-xs whitespace-nowrap leading-6">
                       {new Date(post.date)

@@ -72,13 +72,13 @@ export default async function Blog({ params }: { params: { slug: string } }) {
           <p>
             {`Thanks for reading! If you have any questions or feedback, message me on `}
             <a
-              href="https://www.linkedin.com/in/weitecklow"
+              href="https://www.linkedin.com/in/vigneshtd"
               className="underline"
             >
               LinkedIn
             </a>
             {` or `}
-            <a href="https://x.com/backpropjr" className="underline">
+            <a href="https://x.com/vvgnsh" className="underline">
               X
             </a>
             .
